@@ -27,12 +27,13 @@ content:
         type: select
         default: left
         options:
-          - label: Left
-            value: left
-          - label: Centre
-            value: center
-          - label: Right
-            value: right
+          values:
+            - value: left
+              label: Left
+            - value: center
+              label: Centre
+            - value: right
+              label: Right
 
       - name: hero_image
         label: Homepage Main Photograph
