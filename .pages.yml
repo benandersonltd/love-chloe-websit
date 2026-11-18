@@ -1,0 +1,18 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: website
+    label: Website Content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: title
+        label: Website Title
+        type: string
+      - name: description
+        label: Website Description
+        type: text
