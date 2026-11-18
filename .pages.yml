@@ -1,4 +1,3 @@
-
 media:
   input: media
   output: /media
@@ -20,7 +19,18 @@ content:
 
       - name: hero_description
         label: Homepage Description
-        type: text
+        type: rich-text
+
+      - name: hero_description_align
+        label: Homepage Description - Text Alignment
+        type: select
+        options:
+          - label: Left
+            value: left
+          - label: Centre
+            value: center
+          - label: Right
+            value: right
 
       - name: hero_image
         label: Homepage Main Photograph
@@ -28,7 +38,18 @@ content:
 
       - name: collections_intro
         label: Collections Introduction
-        type: text
+        type: rich-text
+
+      - name: collections_intro_align
+        label: Collections Introduction - Text Alignment
+        type: select
+        options:
+          - label: Left
+            value: left
+          - label: Centre
+            value: center
+          - label: Right
+            value: right
 
       - name: collection_1_title
         label: Collection 1 Title
@@ -36,7 +57,18 @@ content:
 
       - name: collection_1_description
         label: Collection 1 Description
-        type: text
+        type: rich-text
+
+      - name: collection_1_description_align
+        label: Collection 1 Description - Text Alignment
+        type: select
+        options:
+          - label: Left
+            value: left
+          - label: Centre
+            value: center
+          - label: Right
+            value: right
 
       - name: collection_1_image
         label: Collection 1 Photograph
@@ -48,40 +80,17 @@ content:
 
       - name: collection_2_description
         label: Collection 2 Description
-        type: text
+        type: rich-text
+
+      - name: collection_2_description_align
+        label: Collection 2 Description - Text Alignment
+        type: select
+        options:
+          - label: Left
+            value: left
+          - label: Centre
+            value: center
+          - label: Right
+            value: right
 
       - name: collection_2_image
-        label: Collection 2 Photograph
-        type: image
-
-      - name: collection_3_title
-        label: Collection 3 Title
-        type: string
-
-      - name: collection_3_description
-        label: Collection 3 Description
-        type: text
-
-      - name: collection_3_image
-        label: Collection 3 Photograph
-        type: image
-
-      - name: about_description
-        label: About Love Chloe - Paragraph 1
-        type: text
-
-      - name: about_description_two
-        label: About Love Chloe - Paragraph 2
-        type: text
-
-      - name: about_image
-        label: About Love Chloe Photograph
-        type: image
-
-      - name: website_logo
-        label: Website Logo
-        type: image
-
-      - name: contact_intro
-        label: Contact Form Introduction
-        type: text
