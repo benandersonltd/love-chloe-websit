@@ -1,58 +1,764 @@
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="Love Chloe — thoughtful, beautifully designed wedding and event stationery." name="description"/><title>Love Chloe | Event Stationery</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&amp;family=Italiana&amp;display=swap" rel="stylesheet"/><style>
-:root{--ink:#333a30;--olive:#777d62;--cream:#f9f7f1;--sand:#eae5d9;--white:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;font-weight:300}a{color:inherit;text-decoration:none}header{display:flex;align-items:center;justify-content:space-between;padding:24px 6%;background:var(--cream);position:sticky;top:0;z-index:5;border-bottom:1px solid #e5e1d8}.brand{font-family:Italiana,serif;font-size:35px;letter-spacing:.03em}.brand small{display:block;text-align:center;font:9px 'DM Sans',sans-serif;letter-spacing:.32em;text-transform:uppercase;margin-top:-3px}nav{display:flex;gap:32px;align-items:center;font-size:12px;letter-spacing:.13em;text-transform:uppercase}nav a:hover{color:var(--olive)}.button{display:inline-block;padding:15px 28px;background:var(--olive);color:white;font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;border:1px solid var(--olive);cursor:pointer}.button:hover{background:var(--ink)}.outline{background:transparent;color:var(--ink);border-color:var(--ink)}.hero{display:grid;grid-template-columns:1fr 1fr;min-height:660px}.hero-copy{padding:12% 12% 10% 13%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.eyebrow{text-transform:uppercase;letter-spacing:.25em;font-size:11px;color:var(--olive);font-weight:600}h1,h2,h3{font-family:Italiana,serif;font-weight:400}h1{font-size:clamp(60px,6.2vw,105px);line-height:.98;margin:26px 0}h1 em,h2 em{font-weight:400;color:var(--olive)}p{line-height:1.9;font-size:15px}.hero-copy p{max-width:410px;margin-bottom:30px}.hero-image{background: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1500&q=85') center/cover;min-height:520px}.section{padding:105px 7%}.center{text-align:center}.section h2{font-size:clamp(43px,4vw,66px);margin:16px 0 24px}.intro{max-width:650px;margin:0 auto 45px}.collections{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.collection img{width:100%;height:390px;object-fit:cover;display:block}.collection h3{font-size:31px;margin:24px 0 8px}.collection p{margin:0;color:#676b60;font-size:13px}.collection a{display:inline-block;margin-top:17px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;border-bottom:1px solid var(--olive);padding-bottom:6px}.band{background:#e7e7db;padding:90px 7%;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:10%}.band img{width:100%;height:500px;object-fit:cover}.band h2{font-size:clamp(43px,4vw,68px)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:45px;margin-top:55px}.step span{font-family:Italiana,serif;font-size:40px;color:var(--olive)}.step h3{font-size:29px;margin:12px 0}.step p{font-size:14px}.contact{background:#f0ece3;text-align:center}.contact form{max-width:650px;margin:40px auto 0;text-align:left;display:grid;grid-template-columns:1fr 1fr;gap:17px}.contact label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:8px}.contact input,.contact select,.contact textarea{width:100%;border:1px solid #d3cfc3;background:#fffefa;padding:14px;font:14px 'DM Sans',sans-serif;color:var(--ink);border-radius:0}.full{grid-column:1/-1}.contact textarea{min-height:120px;resize:vertical}.contact button{justify-self:start}footer{padding:50px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px}footer p{font-size:12px}.menu{display:none} @media(max-width:800px){header{padding:16px 5%}.brand{font-size:29px}nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--cream);padding:25px;flex-direction:column;border-bottom:1px solid #ddd}nav.open{display:flex}.menu{display:block;border:0;background:none;font-size:25px;color:var(--ink)}.hero{grid-template-columns:1fr}.hero-copy{padding:85px 7%}.hero-image{min-height:390px}.section{padding:70px 6%}.collections,.steps{grid-template-columns:1fr}.collection img{height:420px}.band{grid-template-columns:1fr;padding:65px 6%}.band img{height:360px}.contact form{grid-template-columns:1fr}footer{flex-direction:column;text-align:center}}
+<title>Love Chloe | Event Stationery</title>
+<meta name="description" content="Love Chloe — thoughtful, beautifully designed wedding and event stationery.">
 
-.contact fieldset{border:1px solid #d3cfc3;padding:18px 20px;margin:0}.contact legend{font-size:11px;text-transform:uppercase;letter-spacing:.12em;padding:0 8px}.contact .field-hint{font-size:12px;margin:0 0 12px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}.checks label{display:flex;align-items:center;gap:9px;font-size:13px;letter-spacing:0;text-transform:none;margin:0;cursor:pointer}.contact .checks input{width:auto;accent-color:var(--olive)}.form-note{font-size:12px;line-height:1.6;margin:13px 0 0}@media(max-width:500px){.checks{grid-template-columns:1fr}}</style></head><body><header><a class="brand" href="#home">love chloe<small>event stationery</small></a><button aria-label="Toggle menu" class="menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button><nav><a href="#home">Home</a><a href="#collections">Stationery</a><a href="#about">Our Story</a><a href="#process">How It Works</a><a class="button" href="#contact">Enquire Now</a></nav></header><main><section class="hero" id="home"><div class="hero-copy"><div class="eyebrow" data-content="hero_eyebrow">Beautiful details, lasting memories</div><h1 data-content="hero_title">Made with love. Made for you.</h1><p data-content="hero_description">Thoughtfully designed wedding and event stationery that tells your story, celebrates your style and makes every little detail feel special.</p><a class="button" href="#collections">Explore our stationery</a></div><div aria-label="Romantic wedding celebration" class="hero-image" role="img"></div></section><section class="section center" id="collections"><div class="eyebrow">The little details matter</div><h2>Our <em>stationery</em></h2><p class="intro" data-content="collections_intro">From the first save the date to the finishing touches on your big day, we're here to make your vision feel beautifully yours.</p><div class="collections"><article class="collection"><img alt="Elegant stationery and paper details" data-content="collection_1_image" data-image="true" loading="lazy" src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><h3 data-content="collection_1_title">Wedding Invitations</h3><p data-content="collection_1_description">Save the dates, invitations, RSVP cards and all the lovely extras.</p><a href="#contact">Enquire about invitations</a></article><article class="collection"><img alt="Wedding table styling" data-content="collection_2_image" data-image="true" loading="lazy" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><h3 data-content="collection_2_title">On-the-Day Details</h3><p data-content="collection_2_description">Welcome signs, table plans, place cards, menus and more.</p><a href="#contact">Enquire about details</a></article><article class="collection"><img alt="Special occasion celebration" data-content="collection_3_image" data-image="true" loading="lazy" src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><h3 data-content="collection_3_title">Special Occasions</h3><p data-content="collection_3_description">Personalised stationery for life's other beautiful moments.</p><a href="#contact">Enquire about events</a></article></div></section><section class="band" id="about"><img alt="Delicate flowers in natural light" data-content="about_image" data-image="true" loading="lazy" src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"/><div><div class="eyebrow">A little about us</div><h2>Personal by <em>design.</em></h2><p data-content="about_description">Love Chloe is all about creating stationery that feels like you. Whether your style is modern and minimal, soft and romantic or something completely different, every detail is considered with care.</p><p data-content="about_description_two">We believe beautiful stationery should be as memorable as the occasion itself — and the experience of creating it should be just as lovely.</p><a class="button outline" href="#contact">Let's create something</a></div></section><section class="section center" id="process"><div class="eyebrow">Simple from start to finish</div><h2>How it <em>works</em></h2><div class="steps"><div class="step"><span>01</span><h3>Tell us your ideas</h3><p>Share your occasion, dates, colours, inspiration and what you're looking for.</p></div><div class="step"><span>02</span><h3>Let's get designing</h3><p>We'll discuss the details and create a design direction that suits your celebration.</p></div><div class="step"><span>03</span><h3>Made just for you</h3><p>Once the details are agreed, your stationery is prepared ready for your special day.</p></div></div></section><section class="section contact" id="contact"><div class="eyebrow">We'd love to hear from you</div><h2>Let's make something <em>beautiful.</em></h2><p class="intro" data-content="contact_intro">Every event is different, so we create each quote around your ideas, quantities and finishing touches. Fill in a few details below and we’ll get back to you to discuss your stationery.</p><form action="https://api.web3forms.com/submit" id="enquiry" method="POST">
-<input name="access_key" type="hidden" value="0f1b0c03-5f40-4de3-b78b-1b99503bcde8"/>
-<input name="subject" type="hidden" value="New Love Chloe stationery enquiry"/>
-<input name="from_name" type="hidden" value="Love Chloe Website"/>
-<input aria-hidden="true" autocomplete="off" name="botcheck" style="display:none" tabindex="-1" type="text"/>
-<div><label for="name">Your name *</label><input autocomplete="name" id="name" name="name" required=""/></div>
-<div><label for="email">Email address *</label><input autocomplete="email" id="email" name="email" required="" type="email"/></div>
-<div><label for="type">What's the occasion? *</label><select id="type" name="type" required=""><option disabled="" selected="" value="">Please select</option><option>Wedding</option><option>Birthday or celebration</option><option>Baby shower / christening</option><option>Corporate event</option><option>Other special occasion</option></select></div>
-<div><label for="date">Event date (if known)</label><input id="date" name="date" type="date"/></div>
-<div><label for="mobile">Mobile number</label><input autocomplete="tel" id="mobile" name="mobile" placeholder="e.g. 07700 900123" type="tel"/></div><div><label for="contact_method">Preferred contact method</label><select id="contact_method" name="contact_method"><option>Email</option><option>Phone call</option><option>WhatsApp</option></select></div><div class="full"><label><input name="whatsapp_permission" style="width:auto;margin-right:10px;accent-color:var(--olive)" type="checkbox" value="Yes"/>I’m happy to be contacted on WhatsApp about my enquiry</label></div><fieldset class="full"><legend>What would you like us to create? *</legend><p class="field-hint">Select as many as you like.</p><div class="checks"><label><input name="items" type="checkbox" value="Save the dates"/> Save the dates</label><label><input name="items" type="checkbox" value="Invitations and RSVPs"/> Invitations &amp; RSVPs</label><label><input name="items" type="checkbox" value="Welcome signage"/> Welcome signage</label><label><input name="items" type="checkbox" value="Table plan"/> Table plan</label><label><input name="items" type="checkbox" value="Place cards and menus"/> Place cards &amp; menus</label><label><input name="items" type="checkbox" value="Other / not sure yet"/> Other / not sure yet</label></div></fieldset>
-<div><label for="quantity">Approximate quantity / guest count</label><input id="quantity" name="quantity" placeholder="e.g. 80 invitations or 120 guests"/></div>
-<div><label for="style">Colours or style</label><input id="style" name="style" placeholder="e.g. olive green, minimalist, floral"/></div>
-<div class="full"><label for="message">Tell us about your ideas *</label><textarea id="message" name="message" placeholder="Anything else we should know? Theme, inspiration, finishing touches, or what you'd like help deciding..." required=""></textarea></div>
-<div class="full"><button class="button" id="submit-enquiry" type="submit">Send my enquiry</button><p aria-live="polite" class="form-note" id="form-note" role="status">We’ll use these details only to respond to your enquiry.</p></div>
-</form></section></main><footer><a class="brand" href="#home">love chloe<small>event stationery</small></a><p>Thoughtfully created for your special moments.</p><p>© <span id="year"></span> Love Chloe</p></footer><script>
-document.getElementById('year').textContent=new Date().getFullYear();
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --ink: #333a30;
+  --olive: #777d62;
+  --cream: #f9f7f1;
+  --sand: #eae5d9;
+  --white: #fffefa;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+}
+
+a { color: inherit; text-decoration: none; }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 6%;
+  background: var(--cream);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 1px solid #e5e1d8;
+}
+
+.brand {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Italiana, serif;
+  font-size: 35px;
+  letter-spacing: .03em;
+}
+
+.brand small {
+  display: block;
+  text-align: center;
+  font: 9px 'DM Sans', sans-serif;
+  letter-spacing: .32em;
+  text-transform: uppercase;
+  margin-top: -3px;
+}
+
+.website-logo {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+footer .website-logo { width: 170px; }
+
+nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+nav a:hover { color: var(--olive); }
+
+.button {
+  display: inline-block;
+  padding: 15px 28px;
+  background: var(--olive);
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  border: 1px solid var(--olive);
+  cursor: pointer;
+}
+
+.button:hover { background: var(--ink); }
+.outline {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 660px;
+}
+
+.hero-copy {
+  padding: 12% 12% 10% 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  font-size: 11px;
+  color: var(--olive);
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  font-family: Italiana, serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: clamp(60px, 6.2vw, 105px);
+  line-height: .98;
+  margin: 26px 0;
+}
+
+h1 em, h2 em {
+  font-weight: 400;
+  color: var(--olive);
+}
+
+p {
+  line-height: 1.9;
+  font-size: 15px;
+}
+
+.hero-copy p {
+  max-width: 410px;
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  background: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1500&q=85') center / cover;
+  min-height: 520px;
+}
+
+.section { padding: 105px 7%; }
+.center { text-align: center; }
+
+.section h2 {
+  font-size: clamp(43px, 4vw, 66px);
+  margin: 16px 0 24px;
+}
+
+.intro {
+  max-width: 650px;
+  margin: 0 auto 45px;
+}
+
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.collection img {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  display: block;
+}
+
+.collection h3 {
+  font-size: 31px;
+  margin: 24px 0 8px;
+}
+
+.collection p {
+  margin: 0;
+  color: #676b60;
+  font-size: 13px;
+}
+
+.collection a {
+  display: inline-block;
+  margin-top: 17px;
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--olive);
+  padding-bottom: 6px;
+}
+
+.band {
+  background: #e7e7db;
+  padding: 90px 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10%;
+}
+
+.band img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.band h2 { font-size: clamp(43px, 4vw, 68px); }
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin-top: 55px;
+}
+
+.step span {
+  font-family: Italiana, serif;
+  font-size: 40px;
+  color: var(--olive);
+}
+
+.step h3 {
+  font-size: 29px;
+  margin: 12px 0;
+}
+
+.step p { font-size: 14px; }
+
+.contact {
+  background: #f0ece3;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 650px;
+  margin: 40px auto 0;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+.contact label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  margin-bottom: 8px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  width: 100%;
+  border: 1px solid #d3cfc3;
+  background: #fffefa;
+  padding: 14px;
+  font: 14px 'DM Sans', sans-serif;
+  color: var(--ink);
+  border-radius: 0;
+}
+
+.full { grid-column: 1 / -1; }
+
+.contact textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact button { justify-self: start; }
+
+.contact fieldset {
+  border: 1px solid #d3cfc3;
+  padding: 18px 20px;
+  margin: 0;
+}
+
+.contact legend {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  padding: 0 8px;
+}
+
+.contact .field-hint {
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+
+.checks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 18px;
+}
+
+.checks label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0;
+  cursor: pointer;
+}
+
+.contact .checks input {
+  width: auto;
+  accent-color: var(--olive);
+}
+
+.form-note {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 13px 0 0;
+}
+
+footer {
+  padding: 50px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+footer p { font-size: 12px; }
+
+.menu { display: none; }
+
+@media (max-width: 800px) {
+  header { padding: 12px 5%; }
+  .website-logo { width: 145px; }
+  footer .website-logo { width: 160px; }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--cream);
+    padding: 25px;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+  }
+
+  nav.open { display: flex; }
+
+  .menu {
+    display: block;
+    border: 0;
+    background: none;
+    font-size: 25px;
+    color: var(--ink);
+  }
+
+  .hero { grid-template-columns: 1fr; }
+  .hero-copy { padding: 85px 7%; }
+  .hero-image { min-height: 390px; }
+  .section { padding: 70px 6%; }
+  .collections, .steps { grid-template-columns: 1fr; }
+  .collection img { height: 420px; }
+  .band { grid-template-columns: 1fr; padding: 65px 6%; }
+  .band img { height: 360px; }
+  .contact form { grid-template-columns: 1fr; }
+  footer { flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 500px) {
+  .checks { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a class="brand" href="#home" aria-label="Love Chloe Home">
+    <img class="website-logo" alt="Love Chloe Event Stationers" hidden>
+    <span class="logo-fallback">love chloe<small>event stationery</small></span>
+  </a>
+
+  <button class="menu" aria-label="Toggle menu" aria-expanded="false" onclick="toggleMenu(this)">☰</button>
+
+  <nav id="main-nav">
+    <a href="#home">Home</a>
+    <a href="#collections">Stationery</a>
+    <a href="#about">Our Story</a>
+    <a href="#process">How It Works</a>
+    <a class="button" href="#contact">Enquire Now</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow" data-content="hero_eyebrow">
+      Beautiful details, lasting memories
+    </div>
+
+    <h1 data-content="hero_title">Made with love. Made for you.</h1>
+
+    <p data-content="hero_description">
+      Thoughtfully designed wedding and event stationery that tells your story, celebrates your style and makes every little detail feel special.
+    </p>
+
+    <a class="button" href="#collections">Explore our stationery</a>
+  </div>
+
+  <div class="hero-image" role="img" aria-label="Romantic wedding celebration"></div>
+</section>
+
+<section class="section center" id="collections">
+  <div class="eyebrow">The little details matter</div>
+  <h2>Our <em>stationery</em></h2>
+
+  <p class="intro" data-content="collections_intro">
+    From the first save the date to the finishing touches on your big day, we're here to make your vision feel beautifully yours.
+  </p>
+
+  <div class="collections">
+
+    <article class="collection">
+      <img
+        src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=900&q=85"
+        alt="Elegant stationery and paper details"
+        data-content="collection_1_image"
+        data-image="true"
+        loading="lazy"
+      >
+
+      <h3 data-content="collection_1_title">Wedding Invitations</h3>
+      <p data-content="collection_1_description">
+        Save the dates, invitations, RSVP cards and all the lovely extras.
+      </p>
+      <a href="#contact">Enquire about invitations</a>
+    </article>
+
+    <article class="collection">
+      <img
+        src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=85"
+        alt="Wedding table styling"
+        data-content="collection_2_image"
+        data-image="true"
+        loading="lazy"
+      >
+
+      <h3 data-content="collection_2_title">On-the-Day Details</h3>
+      <p data-content="collection_2_description">
+        Welcome signs, table plans, place cards, menus and more.
+      </p>
+      <a href="#contact">Enquire about details</a>
+    </article>
+
+    <article class="collection">
+      <img
+        src="https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&w=900&q=85"
+        alt="Special occasion celebration"
+        data-content="collection_3_image"
+        data-image="true"
+        loading="lazy"
+      >
+
+      <h3 data-content="collection_3_title">Special Occasions</h3>
+      <p data-content="collection_3_description">
+        Personalised stationery for life's other beautiful moments.
+      </p>
+      <a href="#contact">Enquire about events</a>
+    </article>
+
+  </div>
+</section>
+
+<section class="band" id="about">
+  <img
+    src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85"
+    alt="Delicate flowers in natural light"
+    data-content="about_image"
+    data-image="true"
+    loading="lazy"
+  >
+
+  <div>
+    <div class="eyebrow">A little about us</div>
+    <h2>Personal by <em>design.</em></h2>
+
+    <p data-content="about_description">
+      Love Chloe is all about creating stationery that feels like you. Whether your style is modern and minimal, soft and romantic or something completely different, every detail is considered with care.
+    </p>
+
+    <p data-content="about_description_two">
+      We believe beautiful stationery should be as memorable as the occasion itself — and the experience of creating it should be just as lovely.
+    </p>
+
+    <a class="button outline" href="#contact">Let's create something</a>
+  </div>
+</section>
+
+<section class="section center" id="process">
+  <div class="eyebrow">Simple from start to finish</div>
+  <h2>How it <em>works</em></h2>
+
+  <div class="steps">
+    <div class="step">
+      <span>01</span>
+      <h3>Tell us your ideas</h3>
+      <p>Share your occasion, dates, colours, inspiration and what you're looking for.</p>
+    </div>
+
+    <div class="step">
+      <span>02</span>
+      <h3>Let's get designing</h3>
+      <p>We'll discuss the details and create a design direction that suits your celebration.</p>
+    </div>
+
+    <div class="step">
+      <span>03</span>
+      <h3>Made just for you</h3>
+      <p>Once the details are agreed, your stationery is prepared ready for your special day.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="eyebrow">We'd love to hear from you</div>
+  <h2>Let's make something <em>beautiful.</em></h2>
+
+  <p class="intro" data-content="contact_intro">
+    Every event is different, so we create each quote around your ideas, quantities and finishing touches. Fill in a few details below and we’ll get back to you to discuss your stationery.
+  </p>
+
+  <form action="https://api.web3forms.com/submit" id="enquiry" method="POST">
+
+    <input type="hidden" name="access_key" value="0f1b0c03-5f40-4de3-b78b-1b99503bcde8">
+    <input type="hidden" name="subject" value="New Love Chloe stationery enquiry">
+    <input type="hidden" name="from_name" value="Love Chloe Website">
+
+    <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+    <div>
+      <label for="name">Your name *</label>
+      <input id="name" name="name" autocomplete="name" required>
+    </div>
+
+    <div>
+      <label for="email">Email address *</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+    </div>
+
+    <div>
+      <label for="type">What's the occasion? *</label>
+      <select id="type" name="type" required>
+        <option value="" selected disabled>Please select</option>
+        <option>Wedding</option>
+        <option>Birthday or celebration</option>
+        <option>Baby shower / christening</option>
+        <option>Corporate event</option>
+        <option>Other special occasion</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="date">Event date (if known)</label>
+      <input id="date" name="date" type="date">
+    </div>
+
+    <div>
+      <label for="mobile">Mobile number</label>
+      <input id="mobile" name="mobile" type="tel" autocomplete="tel" placeholder="e.g. 07700 900123">
+    </div>
+
+    <div>
+      <label for="contact_method">Preferred contact method</label>
+      <select id="contact_method" name="contact_method">
+        <option>Email</option>
+        <option>Phone call</option>
+        <option>WhatsApp</option>
+      </select>
+    </div>
+
+    <div class="full">
+      <label>
+        <input type="checkbox" name="whatsapp_permission" value="Yes" style="width:auto;margin-right:10px;accent-color:var(--olive)">
+        I’m happy to be contacted on WhatsApp about my enquiry
+      </label>
+    </div>
+
+    <fieldset class="full">
+      <legend>What would you like us to create? *</legend>
+      <p class="field-hint">Select as many as you like.</p>
+
+      <div class="checks">
+        <label><input type="checkbox" name="items" value="Save the dates"> Save the dates</label>
+        <label><input type="checkbox" name="items" value="Invitations and RSVPs"> Invitations &amp; RSVPs</label>
+        <label><input type="checkbox" name="items" value="Welcome signage"> Welcome signage</label>
+        <label><input type="checkbox" name="items" value="Table plan"> Table plan</label>
+        <label><input type="checkbox" name="items" value="Place cards and menus"> Place cards &amp; menus</label>
+        <label><input type="checkbox" name="items" value="Other / not sure yet"> Other / not sure yet</label>
+      </div>
+    </fieldset>
+
+    <div>
+      <label for="quantity">Approximate quantity / guest count</label>
+      <input id="quantity" name="quantity" placeholder="e.g. 80 invitations or 120 guests">
+    </div>
+
+    <div>
+      <label for="style">Colours or style</label>
+      <input id="style" name="style" placeholder="e.g. olive green, minimalist, floral">
+    </div>
+
+    <div class="full">
+      <label for="message">Tell us about your ideas *</label>
+      <textarea id="message" name="message" placeholder="Anything else we should know? Theme, inspiration, finishing touches, or what you'd like help deciding..." required></textarea>
+    </div>
+
+    <div class="full">
+      <button class="button" id="submit-enquiry" type="submit">Send my enquiry</button>
+      <p class="form-note" id="form-note" role="status" aria-live="polite">
+        We’ll use these details only to respond to your enquiry.
+      </p>
+    </div>
+
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <a class="brand" href="#home" aria-label="Love Chloe Home">
+    <img class="website-logo" alt="Love Chloe Event Stationers" hidden>
+    <span class="logo-fallback">love chloe<small>event stationery</small></span>
+  </a>
+
+  <p>Thoughtfully created for your special moments.</p>
+  <p>© <span id="year"></span> Love Chloe</p>
+</footer>
+
+<script>
+// Set current year
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// Mobile menu
+function toggleMenu(button) {
+  const nav = document.getElementById('main-nav');
+  const isOpen = nav.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(isOpen));
+}
+
+// Enquiry form
 document.getElementById('enquiry').addEventListener('submit', async function(e) {
- e.preventDefault();
- const note = document.getElementById('form-note');
- const button = document.getElementById('submit-enquiry');
- if (!this.querySelectorAll('input[name="items"]:checked').length) {
-  note.textContent = 'Please select at least one stationery item (or “Other / not sure yet”).';
-  return;
- }
- button.disabled = true;
- button.textContent = 'Sending…';
- note.textContent = 'Sending your enquiry…';
- try {
-  const response = await fetch('https://api.web3forms.com/submit', {method:'POST',body:new FormData(this),headers:{'Accept':'application/json'}});
-  const result = await response.json();
-  if (!response.ok || !result.success) throw new Error(result.message || 'Unable to send');
-  this.reset();
-  note.textContent = 'Thank you for your enquiry! We’ve received your details and will be in touch soon.';
- } catch (error) {
-  note.textContent = 'Sorry, we couldn’t send your enquiry. Please email benandersonltd@gmail.com directly.';
- } finally {
-  button.disabled = false;
-  button.textContent = 'Send my enquiry';
- }
+  e.preventDefault();
+
+  const note = document.getElementById('form-note');
+  const button = document.getElementById('submit-enquiry');
+
+  if (!this.querySelectorAll('input[name="items"]:checked').length) {
+    note.textContent = 'Please select at least one stationery item (or “Other / not sure yet”).';
+    return;
+  }
+
+  button.disabled = true;
+  button.textContent = 'Sending…';
+  note.textContent = 'Sending your enquiry…';
+
+  try {
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: new FormData(this),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    const result = await response.json();
+
+    if (!response.ok || !result.success) {
+      throw new Error(result.message || 'Unable to send');
+    }
+
+    this.reset();
+    note.textContent = 'Thank you for your enquiry! We’ve received your details and will be in touch soon.';
+
+  } catch (error) {
+    note.textContent = 'Sorry, we couldn’t send your enquiry. Please email hello@lovechloe.co.uk directly.';
+
+  } finally {
+    button.disabled = false;
+    button.textContent = 'Send my enquiry';
+  }
 });
-</script><script>
-// Content managed through Pages CMS. Safe text insertion; no HTML injection.
-fetch('/content/site.json', {cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Content unavailable');return r.json()}).then(data=>{
- document.querySelectorAll('[data-content]').forEach(el=>{
-   const key=el.dataset.content; const val=data[key]; if(typeof val!=='string')return;
-   if(el.dataset.image==='true'){el.src=val;return;}
-   el.textContent=val;
- });
- if(typeof data.hero_image==='string' && data.hero_image){
-  document.querySelector('.hero-image').style.backgroundImage='url('+JSON.stringify(data.hero_image)+')';
- }
-}).catch(err=>console.warn('Using original website content:',err));
-</script></body></html>
+
+// Load editable content from Pages CMS
+fetch('/content/site.json', { cache: 'no-store' })
+  .then(response => {
+    if (!response.ok) throw new Error('Content unavailable');
+    return response.json();
+  })
+  .then(data => {
+
+    // Update text and collection images
+    document.querySelectorAll('[data-content]').forEach(element => {
+      const key = element.dataset.content;
+      const value = data[key];
+
+      if (typeof value !== 'string' || !value) return;
+
+      if (element.dataset.image === 'true') {
+        element.src = value;
+      } else {
+        element.textContent = value;
+      }
+    });
+
+    // Update homepage photograph
+    if (typeof data.hero_image === 'string' && data.hero_image) {
+      document.querySelector('.hero-image').style.backgroundImage =
+        'url(' + JSON.stringify(data.hero_image) + ')';
+    }
+
+    // Update both website logos
+    if (typeof data.website_logo === 'string' && data.website_logo.trim()) {
+      const logoPath = data.website_logo.trim();
+
+      document.querySelectorAll('.website-logo').forEach(img => {
+        img.onload = function() {
+          img.hidden = false;
+          const fallback = img.parentElement.querySelector('.logo-fallback');
+          if (fallback) fallback.hidden = true;
+        };
+
+        img.onerror = function() {
+          img.hidden = true;
+          const fallback = img.parentElement.querySelector('.logo-fallback');
+          if (fallback) fallback.hidden = false;
+        };
+
+        img.src = logoPath;
+      });
+    }
+
+  })
+  .catch(error => {
+    console.warn('Using original website content:', error);
+  });
+</script>
+
+</body>
+</html>
