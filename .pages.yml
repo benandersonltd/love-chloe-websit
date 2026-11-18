@@ -24,7 +24,7 @@ content:
 
       - name: hero_image
         label: Homepage Main Photograph
-        type: image
+        type: string
 
       - name: collections_intro
         label: Collections Introduction
@@ -40,7 +40,7 @@ content:
 
       - name: collection_1_image
         label: Collection 1 Photograph
-        type: image
+        type: string
 
       - name: collection_2_title
         label: Collection 2 Title
@@ -52,7 +52,7 @@ content:
 
       - name: collection_2_image
         label: Collection 2 Photograph
-        type: image
+        type: string
 
       - name: collection_3_title
         label: Collection 3 Title
@@ -64,8 +64,8 @@ content:
 
       - name: collection_3_image
         label: Collection 3 Photograph
-        type: image
-
+        type: string
+        
       - name: about_description
         label: About Love Chloe - Paragraph 1
         type: text
@@ -76,7 +76,7 @@ content:
 
       - name: about_image
         label: About Love Chloe Photograph
-        type: image
+        type: string
 
       - name: contact_intro
         label: Contact Form Introduction
