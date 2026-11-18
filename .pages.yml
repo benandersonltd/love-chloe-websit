@@ -5,14 +5,79 @@ media:
 
 content:
   - name: website
-    label: Website Content
+    label: Love Chloe Website
     type: file
     path: content/site.json
     format: json
     fields:
-      - name: title
-        label: Website Title
+      - name: hero_eyebrow
+        label: Homepage Small Heading
         type: string
-      - name: description
-        label: Website Description
+
+      - name: hero_title
+        label: Homepage Main Heading
+        type: string
+
+      - name: hero_description
+        label: Homepage Description
+        type: text
+
+      - name: hero_image
+        label: Homepage Main Photograph
+        type: image
+
+      - name: collections_intro
+        label: Collections Introduction
+        type: text
+
+      - name: collection_1_title
+        label: Collection 1 Title
+        type: string
+
+      - name: collection_1_description
+        label: Collection 1 Description
+        type: text
+
+      - name: collection_1_image
+        label: Collection 1 Photograph
+        type: image
+
+      - name: collection_2_title
+        label: Collection 2 Title
+        type: string
+
+      - name: collection_2_description
+        label: Collection 2 Description
+        type: text
+
+      - name: collection_2_image
+        label: Collection 2 Photograph
+        type: image
+
+      - name: collection_3_title
+        label: Collection 3 Title
+        type: string
+
+      - name: collection_3_description
+        label: Collection 3 Description
+        type: text
+
+      - name: collection_3_image
+        label: Collection 3 Photograph
+        type: image
+
+      - name: about_description
+        label: About Love Chloe - Paragraph 1
+        type: text
+
+      - name: about_description_two
+        label: About Love Chloe - Paragraph 2
+        type: text
+
+      - name: about_image
+        label: About Love Chloe Photograph
+        type: image
+
+      - name: contact_intro
+        label: Contact Form Introduction
         type: text
