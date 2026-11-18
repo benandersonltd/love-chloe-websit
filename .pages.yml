@@ -78,6 +78,10 @@ content:
         label: About Love Chloe Photograph
         type: image
 
+      - name: website_logo
+        label: Website Logo
+        type: image
+
       - name: contact_intro
         label: Contact Form Introduction
         type: text
